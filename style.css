@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: content-box;
+  }
+
+@font-face{
+    font-family:"SuperBoom";
+    src:url(fonts/SuperBoom-OVO4P.ttf);
+}
+
+body{
+  height: 100vh;
+  max-height: 100vh;
+  background: linear-gradient(-45deg, #de7d60, #5ee87e, #a51717, #23D5AB);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: Gradient 10s ease infinite;
+  background-size: 300% 300%;
+  
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+lord-icon{
+    width: 100vw;
+    height:100vh;
+       
+}
+
+canvas{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    visibility: hidden;
+}
+
+#startButton{
+    position:absolute;
+    cursor: pointer;
+    background-color: #ffffffd9;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    z-index:1;
+    color: #000000;
+    padding: 20px;
+    font-family: 'SuperBoom',sans-serif;
+    font-size: 4vh;
+    border-radius: 10px;
+}
+
+#startButton:hover{
+    font-size: 5vh;
+    padding: 28px;
+}
+
+.score{
+    font-family: 'SuperBoom',sans-serif;
+    position: fixed;
+    top:5%;
+    display: block;
+    margin:0 auto;
+    font-size: 2vh;
+    color: #ffffff;
+    background-color: rgba(45, 7, 7, 0.85);
+    padding: 10px;
+    border-radius: 10px;
+    visibility: hidden;
+}
+
+.gameOverScreen{
+    position: absolute;
+    width: 400px;
+    height: 450px;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    background-color: rgba(45, 7, 7, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#d9d6d6;
+    font-family:'SuperBoom',sans-serif;
+    border-radius: 20px; 
+   
+}
+
+.gameOverMessage{
+    font-size: 8vh;
+    margin-top: -10%;
+    text-align: center;
+}
+
+#playGameAgain {
+    position:absolute;
+    cursor: pointer;
+    background-color: #7bc9add9;
+    transform: translate(-50%, -50%);
+    left:50%;
+    top:50%;
+    color: #000000;
+    width:150px;
+    padding: 10px;
+    font-family: 'SuperBoom',sans-serif;
+    font-size: 3vh;
+    border-radius: 10px;
+    margin-top: 160px;   
+}
+
+#playGameAgain:hover{
+    font-size: 4vh;
+    width:220px;
+}
+
+.hide{
+    visibility: hidden;
+}
+

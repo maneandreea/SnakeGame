@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="game-fill.png">
+<!-- //The rel attribute defines the relationship between the current page and the linked resource. 
+The rel="icon" value defines the web page icon or favicon which visually represents the website. 
+The icon URL is specified in the href attribute. -->
+</head>
+<body>
+    
+    <canvas width="500" height="500" id="gameBoard"> </canvas>    
+    <div class = "score"></div>
+    <!-- canvas = rectangular area on a HTML page used to draw graphics in a container -->
+        <div class = "gameOverScreen hide">
+        <div class="gameOverMessage">Game over!</div>
+        <button id="playGameAgain"> Play again?</button>
+    </div>
+    
+    <button id="startButton"> Click here to play </button>
+
+<lord-icon id="snakeAnimation" src="https://cdn.lordicon.com/emzrtjck.json"   
+trigger="loop"></lord-icon>
+
+<script src="https://cdn.lordicon.com/fudrjiwc.js"></script> 
+<script src="script.js"></script>
+</div>
+</body>
+</html> 
