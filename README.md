@@ -6,5 +6,5 @@ The Snake Game is a classic game written in JavaScript and utilizing HTML Canvas
 
 # Game Preview
 
-<a><img src="https://user-images.githubusercontent.com/123982270/232294400-20910e49-59bf-4acd-9212-2a3b42e61913.png" style="max-width: 100%;"></a>
-<a><img src="https://user-images.githubusercontent.com/123982270/232294472-267af9f8-d49e-44d3-aa0b-bd58f7bcad72.png" style="max-width: 100%;"></a>
+<a><img src="https://user-images.githubusercontent.com/123982270/232295090-4c3fc940-6948-4edb-9902-70eb2ee3117a.png" style="max-width: 100%;"></a> <br>
+<a><img src="https://user-images.githubusercontent.com/123982270/232294882-ef18a492-22a6-40b8-854c-8a4cc0759289.png" style="max-width: 100%;"></a>
